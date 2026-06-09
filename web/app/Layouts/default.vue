@@ -3,18 +3,23 @@
     <v-navigation-drawer 
         color="surface-variant" 
         v-model="drawer">
+        
             <v-list>
                 <v-list-item
                 prepend-icon="mdi-view-dashboard"
                 title="Home"
                 value="home"
+                to="/"
             ></v-list-item>
+
             <v-list-item
                 prepend-icon="mdi-information-variant"
-                title="About"
-                value="home"
+                title="Add Student"
+                value="addstud"
+                to="addstudent"
             ></v-list-item>
             </v-list>
+
     </v-navigation-drawer>
 
     <v-app-bar>
